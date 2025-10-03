@@ -1,4 +1,4 @@
-# Political Bias Analyzer - Chrome Extension
+# Political Bias Analyzer - Chrome Extension (OPEN AI API)
 
 A Chrome extension that analyzes political bias in news articles and web content using OpenAI's GPT API. The extension extracts article content and provides a visual breakdown of left vs. right political leaning percentages.
 
