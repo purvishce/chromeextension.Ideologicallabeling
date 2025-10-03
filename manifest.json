@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Page Headings Reader",
+  "description": "A Chrome extension that reads and displays page headings",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_title": "Page Headings Reader"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
