@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Page Headings Reader",
-  "description": "A Chrome extension that reads and displays page headings",
+  "name": "PoliticalBiasAnalyzer",
+  "description": "A Chrome extension that analyzes political bias in news articles and web content using OpenAI's GPT API. The extension extracts article content and provides a visual breakdown of left vs. right political leaning percentages.",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
-    "default_title": "Page Headings Reader"
+    "default_popup": "PoliticalBiasAnalyzer.html",
+    "default_title": "Political Bias Analyzer"
   },
   "background": {
     "service_worker": "background.js"
