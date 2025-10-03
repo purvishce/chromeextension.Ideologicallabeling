@@ -4,6 +4,9 @@ A Chrome extension that analyzes political bias in news articles and web content
 
 ![Alt text](https://example.com/myimage.png](https://github.com/purvishce/chromeextension.Ideologicallabeling/blob/main/hello_extensions.png)
 
+![Alt text](./screenshot.png)
+
+
 
 ## Features
 
